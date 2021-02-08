@@ -15,7 +15,7 @@
                 $mail->Port       = 587;
                 $mail->SMTPAuth   = true;
                 $mail->From     = "App";
-//dddd
+
                 $mail->Username   = '****';   //email
                 $mail->Password   = '***';  //password
 
