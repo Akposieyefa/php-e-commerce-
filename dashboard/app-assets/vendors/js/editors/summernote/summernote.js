@@ -4005,7 +4005,7 @@ const TableResultAction = function (startPoint, where, action, domTable) {
   };
   const _virtualTable = [];
   const _actionCellList = []; /// ///////////////////////////////////////////
-  // Private functions
+  // Private classes
   /// ///////////////////////////////////////////
 
   /**
@@ -4228,7 +4228,7 @@ const TableResultAction = function (startPoint, where, action, domTable) {
     setStartPoint();
     createVirtualTable();
   } /// ///////////////////////////////////////////
-  // Public functions
+  // Public classes
   /// ///////////////////////////////////////////
 
   /**

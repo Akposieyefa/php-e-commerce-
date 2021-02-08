@@ -560,7 +560,7 @@
   }
 
   // Used for the algorithm that adjusts markers for a change in the
-  // document. These functions cut an array of spans at a given
+  // document. These classes cut an array of spans at a given
   // character position, returning an array of remaining chunks (or
   // undefined if nothing remains).
   function markedSpansBefore(old, startCh, isInsert) {
@@ -1401,7 +1401,7 @@
 
   // STRING STREAM
 
-  // Fed to the mode parsers, provides helper functions to make
+  // Fed to the mode parsers, provides helper classes to make
   // parsers more succinct.
 
   var StringStream = function(string, tabSize, lineOracle) {

@@ -98,7 +98,7 @@
         return obj instanceof Numeral;
     };
 
-    // helper functions
+    // helper classes
     numeral._ = _ = {
         // formats numbers separators, decimals places, signs, abbreviations
         numberToFormat: function(value, format, roundingFunction) {

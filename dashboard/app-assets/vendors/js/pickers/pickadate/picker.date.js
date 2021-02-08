@@ -162,7 +162,7 @@ DatePicker.prototype.set = function( type, value, options ) {
         return calendar
     }
 
-    // Otherwise go through the queue of methods, and invoke the functions.
+    // Otherwise go through the queue of methods, and invoke the classes.
     // Update this as the time unit, and set the final value as this item.
     // * In the case of `enable`, keep the queue but set `disable` instead.
     //   And in the case of `flip`, keep the queue but set `enable` instead.
